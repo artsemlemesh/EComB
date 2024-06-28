@@ -33,3 +33,9 @@ class ProductListCreateView(generics.ListCreateAPIView):
     # def get(self, request, format=None):
     #     products = HomeProduct.objects.all()
         
+# myapp/views.py
+from django.http import JsonResponse
+from django.conf import settings
+
+def allowed_hosts(request):
+    return JsonResponse({'ALLOWED_HOSTS': settings.ALLOWED_HOSTS})

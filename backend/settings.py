@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-^-)r-q8ttck8r$q2wexg5*0n(4q(7x3(khp*_tik@_$rgw1o^+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['back-mike-1855d352a13c.herokuapp.com', 'front-mike-d8af1337fdbe.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'back-mike-1855d352a13c.herokuapp.com', 'front-mike-d8af1337fdbe.herokuapp.com']
 
 
 # Application definition
@@ -77,7 +77,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = "backend.wsgi.application"
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+# ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 
 
 # Database
