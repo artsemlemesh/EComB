@@ -30,9 +30,7 @@ class ProductListCreateView(generics.ListCreateAPIView):
         if serializer.is_valid():
             serializer.save()
 
-    # def get(self, request, format=None):
-    #     products = HomeProduct.objects.all()
-        
+    
 # myapp/views.py
 from django.http import JsonResponse
 from django.conf import settings
